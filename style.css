@@ -1,3 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: black;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: linear-gradient(135deg, #0b0b0d, #1a1a1d, #121214);
+
+
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border-radius: 10px;
+    color: rgb(2, 2, 2);
+    border: none;
+    padding: 13px 35px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.6s;
+    cursor: pointer;
+    background-color: rgb(216, 217, 217);
+}
+button:hover {
+    background-color: rgb(226, 0, 0);
+    transform: scale(1.15);
+    color: antiquewhite;
 }
